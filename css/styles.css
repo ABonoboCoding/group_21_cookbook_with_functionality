@@ -1,0 +1,214 @@
+body {
+	background-color: #fff2e6;
+}
+/*default display*/
+#homepage__layer {
+	display: block;
+}
+#recipes__layer, #techniques__layer, #materials__layer, #start__layer {
+	display: none;
+}
+/*body*/
+.cookbook__background {
+	width: 90%;
+	padding: 5px;
+	margin:auto;
+}
+/*home page*/
+.cookbook__title {
+	font-size: 55px;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.cookbook__symbol {
+	text-align: center;
+	font-size: 60px;
+	margin: 30px auto ;
+}
+.cookbook__button {
+	text-align: center;
+	background-color: #007a87;
+  border-radius: 3px;
+  border: 1px solid #0000b3;
+  font-size: 30px;
+  width: 60%;
+  color: white;
+	margin: 5px auto ;
+}
+.cookbook__buttons:hover {
+	background-color: #72ce98;
+}
+.cookbook__setting {
+	float:right;
+	padding: 0 10px;
+	border: 2px solid black;
+	font-size: 40px;
+	background-color: #eee;
+}
+.cookbook__version {
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+}
+/*sub page: Recipes & Techniques*/
+.gohome__button {
+	float:right;
+	border: 1px solid black;
+	font-size: 25px;
+	background-color: #eee;
+}
+.recipes__card {
+	width: 90%;
+	border: 2px solid darkblue;
+	border-radius: 2px;
+	margin:auto;
+	margin-bottom: 10px;
+	height: 75px;
+	width: 225px;
+}
+.recipes__card__img {
+	float: left;
+	height: 75px;
+	width: 75px;
+}
+.recipes__card__img img {
+	width:100%;
+}
+.recipes__card__content {
+	float: left;
+	background-color: #fffaf5;
+	height: 75px;
+	width: 150px;
+	font-size: 18px;
+}
+.recipes__button {
+	float:left;
+	text-align: center;
+	background-color: #007a87;
+  border-radius: 5px;
+  border-color: 0px #0000b3 solid;
+  width: 50%;
+  color: white;
+	margin: 5px auto ;
+}
+.recipes__buttons:hover {
+	background-color: #72ce98;
+}
+/*sub sub page: Materials & Start*/
+.return__button {
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	float:left;
+	text-align: center;
+	background-color: #007a87;
+	border-radius: 5px;
+	color: white;
+}
+.change__section__button {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	float:right;
+	color: white;
+	border-radius: 5px;
+	font-size: 40px;
+	background-color: #007a87;
+}
+.start__demo {
+	text-align: center;
+	width: 100%;
+	margin:auto;
+}
+.start__demo__card {
+	float: left;
+	text-align: center;
+	width: 30%;
+	margin: auto 4px;
+	background-color: #007a87;
+  border-radius: 5px;
+	color: white;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+a:visited{
+text-decoration: none;
+color: white;
+}
+
+/*pop up window related styles*/
+
+.popuplink{
+text-decoration: none;
+color: blue;
+}
+
+.popuplink:visited{
+text-decoration: none;
+color: blue;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.popup .close:hover {
+  color: red;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 400px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
