@@ -35,3 +35,19 @@ function show__start() {
   document.getElementById("materials__layer").style.display = "none";
   document.getElementById("start__layer").style.display = "block";
 }
+
+function pic_layer(){
+    document.getElementById('pic_window').style.display = "block";
+    document.getElementById('gif_window').style.display = "none";
+    document.getElementById('vid_window').style.display = "none";
+  }
+function gif_layer(){
+    document.getElementById('gif_window').style.display = "block";
+    document.getElementById('pic_window').style.display = "none";
+    document.getElementById('vid_window').style.display = "none";
+        }
+function vid_layer(){
+    document.getElementById('vid_window').style.display = "block";
+    document.getElementById('gif_window').style.display = "none";
+    document.getElementById('pic_window').style.display = "none";
+  }
