@@ -122,14 +122,14 @@ body {
 	text-align: center;
 	/*border: 1px green solid;*/
 	width: 100%;
-	height: 220px;
+	height: 230px;
   margin: 0 auto;
 }
 .start_demo_button{
 	width: 100%;
-	height: 30px;
+	height: 28px;
 	/*border: 1px purple solid;*/
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 .start_demo_button_card {
 	float: left;
