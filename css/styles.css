@@ -35,7 +35,7 @@ body {
   font-size: 30px;
   width: 60%;
   color: white;
-	margin: 5px auto ;
+	margin: 5px auto;
 }
 .cookbook__buttons:hover {
 	background-color: #72ce98;
@@ -44,7 +44,7 @@ body {
 	float:right;
 	padding: 0 10px;
 	border: 2px solid black;
-	font-size: 40px;
+	font-size: 30px;
 	background-color: #eee;
 }
 .cookbook__version {
@@ -77,11 +77,12 @@ body {
 	width:100%;
 }
 .recipes__card__content {
+	padding-left: 5px;
 	float: left;
 	background-color: #fffaf5;
 	height: 75px;
-	width: 150px;
-	font-size: 18px;
+	width: 145px;
+	font-size: 16px;
 }
 .recipes__button {
 	float:left;
@@ -89,18 +90,18 @@ body {
 	background-color: #007a87;
   border-radius: 5px;
   border-color: 0px #0000b3 solid;
-  width: 50%;
+  width: 65%;
   color: white;
-	margin: 5px auto ;
+	margin: 5px 5px 5px;
 }
 .recipes__buttons:hover {
 	background-color: #72ce98;
 }
 /*sub sub page: Materials & Start*/
 .return__button {
-	width: 50px;
-	height: 50px;
-	font-size: 40px;
+	width: 35px;
+	height: 35px;
+	font-size: 30px;
 	float:left;
 	text-align: center;
 	background-color: #007a87;
@@ -108,28 +109,44 @@ body {
 	color: white;
 }
 .change__section__button {
-	width: 100px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	text-align: center;
 	float:right;
 	color: white;
 	border-radius: 5px;
-	font-size: 40px;
+	font-size: 30px;
 	background-color: #007a87;
 }
 .start__demo {
 	text-align: center;
+	/*border: 1px green solid;*/
 	width: 100%;
-	margin:auto;
+	height: 200px;
+  margin: 0 auto;
+}
+.start_demo_button{
+	width: 100%;
+	height: 30px;
+	/*border: 1px purple solid;*/
+	margin-bottom: 10px;
 }
 .start__demo__card {
 	float: left;
 	text-align: center;
 	width: 30%;
+	/*border: 1px red solid;*/
 	margin: auto 4px;
 	background-color: #007a87;
   border-radius: 5px;
 	color: white;
+}
+.pic_gif_vid_show{
+	position: relative;
+	left:-25%;
+	/*border: 1px blue solid;*/
+	width: 90%;
+	margin: 0px;
 }
 
 a{

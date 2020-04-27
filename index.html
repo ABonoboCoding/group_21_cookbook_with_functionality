@@ -14,8 +14,8 @@
 				<div class="cookbook__button" onclick="show__recipes()">Recipes</div>
 				<div class="cookbook__button" onclick="show__techniques()">Techniques</div>
 
-				<div>
-					<a class="cookbook__button" href="#popup1">Version info</a>
+				<div class="cookbook__button">
+					<a href="#popup1">Version info</a>
 				</div>
 
 				<div id="popup1" class="overlay">
@@ -24,7 +24,6 @@
 						<a class="close" href="#">&times;</a>
 						<div class="content">
 							<p> <a href = "https://github.com/ABonoboCoding/group21_cookbook_prototype" target = "_blank" class="popuplink"> Click me </a> to go to <b> THIS </b> version's GitHub repository</p>
-
 							<h3> Next version (Beta 1.0)</h3>
 							<p>Functional prototype: <a href ="https://abonobocoding.github.io/group_21_cookbook_with_functionality/index.html" class="popuplink"> Here </a></p>
 							<p> <a href = "https://github.com/ABonoboCoding/group_21_cookbook_with_functionality" target = "_blank" class="popuplink"> Click me </a> to go to <b> NEXT </b> version's GitHub repository</p>
@@ -35,6 +34,7 @@
 
 				<div class="cookbook__setting" >&#9881;</div>
 			</div>
+
 			<div id="recipes__layer">
 				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
 				<h1>Recipes&#128214;</h1>
@@ -45,7 +45,7 @@
 					<div class="recipes__card__content">
 						<div>Fried beef with onion</div>
 						<div class="recipes__button" onclick="show__materials()">Materials</div>
-						<div class="recipes__button" onclick="show__start()">start</div>
+						<div class="recipes__button" onclick="show__start()">Start</div>
 					</div>
 				</div>
 				<div class="recipes__card">
@@ -78,7 +78,7 @@
 					<li>Pan (flat)</li>
 				</ul>
 				<div class="return__button" onclick="show__recipes()">&#8678;</div>
-				<div class="change__section__button" onclick="show__start()">Start</div>
+				<div class="change__section__button" onclick="show__start()">&#8680;</div>
 			</div>
 			<div id="start__layer">
 				<h1>Fried beef with onion</h1>
@@ -91,34 +91,28 @@
 				</div>
 				<div>Demo:</div>
 				<div class="start__demo">
-					<div>
+					<div class="start_demo_button">
 						<INPUT TYPE="button" value='pic' onclick="pic_layer()" class="start__demo__card">
-					</div>
-					<div>
 						<INPUT TYPE="button" value='gif' onclick="gif_layer()" class="start__demo__card">
-					</div>
-					<div>
 						<INPUT TYPE="button" value='vid' onclick="vid_layer()" class="start__demo__card">
 					</div>
 
-						<div class="pic_gif_vid_show">
-								<img src="images/cut_fish.PNG" id="pic_window" style='display:none' width=45%>
+					<div class="pic_gif_vid_show">
+						<div class="pic_show">
+							<img src="images/cut_fish.PNG" id="pic_window" style='display:none' width=100%>
 						</div>
-						<div class="pic_gif_vid_show">
-								<img src="images/cut_fish_gif.gif" id="gif_window" style='display:none' width=50%>
+						<div class="gif_show">
+							<img src="images/cut_fish_gif.gif" id="gif_window" style='display:none' width=100%>
 						</div>
-
-						<div class="pic_gif_vid_show">
-								<video width=50% controls id="vid_window" style='display:none'>
-									<source src="images/cut_fish_video.mp4" type="video/mp4">
-									<source src="images/cut_fish_video.mp4.ogg" type="video/ogg">
-									<source src="images/cut_fish_video.mp4.webm" type="video/webm">
-									</object>
-								</video>
-							</div>
-
-		</div>
-
+						<div class="vid_show">
+							<video width=100% controls id="vid_window" style='display:none'>
+								<source src="images/cut_fish_video.mp4" type="video/mp4">
+								<source src="images/cut_fish_video.mp4.ogg" type="video/ogg">
+								<source src="images/cut_fish_video.mp4.webm" type="video/webm">
+							</video>
+						</div>
+					</div>
+				</div>
 
 				<div class="return__button" onclick="show__recipes()">&#8678;</div>
 			</div>
