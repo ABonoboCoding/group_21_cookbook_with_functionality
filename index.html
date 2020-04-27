@@ -55,11 +55,42 @@
 					</div>
 				</div>
 			</div>
+
+			<!--Show all items in techniques part-->
 			<div id="techniques__layer">
 				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
 				<h1>Techniques</h1>
+				<div class="techniques_card">
+					<div class="techniques_button" onclick="show_techiques_item1()">Cutting</div>
+					<div class="techniques_button" onclick="">Steaming</div>
+				</div>
 			</div>
-			<div id="materials__layer">
+			<!--show the page of each item in techniques-->
+			<!--Only one item showed-->
+			<div id="techniques_item1">
+				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
+				<h1>Cutting</h1>
+				<div class="techiniques_content">
+					<h3>Chop</h3>
+					<p>Chopping is probably the most used and "informal," if you will, of the techniques. It refers to cutting food into small, irregular pieces. Most recipes will specify what size pieces are required, with coarse (3/4") and fine (1/4") chop being common. If no number is given, go with 1/2" pieces.</p>
+					<h3>Dice</h3>
+					<p>Unlike a chop, a dice refers to cutting food into small uniform or dice-like pieces, ranging from 1/8" - 1/2". With dicing comes some waste, since you'll need to cut the vegetable or fruit into a block shape, but the extra pieces can be reused for stock or other dishes. One you have your block formed, slice the blocks into strips in the desired thickness and then cut again into smaller pieces to create cubes.</p>
+				</div>
+				<div class="return__button" onclick="show__techniques()">&#8678;</div>
+			</div>
+
+			<!-- function needs to be added
+			<div id="techniques_item2">
+				<div class="gohome__button" onclick="show__homepage()">&#127968;</div>
+				<h1>Steaming</h1>
+				<div class="techiniques_content">
+					<p>Chopping is probably the most used and "informal," if you will, of the techniques. It refers to cutting food into small, irregular pieces.</p>
+				</div>
+			</div>
+			-->
+
+			<!--Only one recipe's material page showed-->
+			<div id="materials__recipe1">
 				<h1>Fried beef with onion</h1>
 				<h2>Materials:</h2>
 				<ul>
@@ -80,7 +111,16 @@
 				<div class="return__button" onclick="show__recipes()">&#8678;</div>
 				<div class="change__section__button" onclick="show__start()">&#8680;</div>
 			</div>
-			<div id="start__layer">
+
+
+			<!-- function needs to be added
+			<div id="materials__recipe2">
+			</div>
+			-->
+
+
+			<!--Start page for recipe 1-->
+			<div id="start__recipe1">
 				<h1>Fried beef with onion</h1>
 				<h2>Step 1:</h2>
 				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -116,6 +156,8 @@
 
 				<div class="return__button" onclick="show__recipes()">&#8678;</div>
 			</div>
+
+
 		</div>
     <script src="js/js.js"></script>
   </body>
