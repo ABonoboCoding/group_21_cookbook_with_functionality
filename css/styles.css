@@ -66,7 +66,7 @@ body {
 	margin:auto;
 	margin-bottom: 10px;
 	height: 90px;
-	width: 250px;
+	width: 260px;
 }
 .recipes__card__img {
 	float: left;
@@ -81,7 +81,7 @@ body {
 	float: left;
 	background-color: #fffaf5;
 	height: 90px;
-	width: 155px;
+	width: 165px;
 	font-size: 16px;
 }
 .recipes__button {
