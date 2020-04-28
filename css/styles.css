@@ -141,6 +141,16 @@ body {
   border-radius: 5px;
 	color: white;
 }
+.close_demo_button_card {
+	float: left;
+	text-align: center;
+	width: 93%;
+	/*border: 1px red solid;*/
+	margin: auto 4px;
+	background-color: #007a87;
+  border-radius: 5px;
+	color: white;
+}
 .pic_gif_vid_show{
 	position: relative;
 	left:-25%;
