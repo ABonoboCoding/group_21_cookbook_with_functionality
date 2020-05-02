@@ -233,6 +233,18 @@ color: blue;
   transition: all 5s ease-in-out;
 }
 
+.popup_out_close {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 200ms;
+  font-size: 30px;
+  opacity: 0;
+}
+
 .popup .close {
   position: absolute;
   top: 20px;
